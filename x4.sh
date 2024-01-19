@@ -12,7 +12,7 @@ update_and_upgrade() {
  
 # @return: Installs tmux, neofetch, nano, vim, mc, nmap, and wget packages.
 install_packages() {
-    yum install tmux neofetch nano vim mc nmap wget -y
+    yum install tmux neofetch nano vim mc nmap wget htop bpytop -y
 }
  
 # Function to create directories and navigate to the desired directory.
